@@ -28,9 +28,11 @@ use acc_core::{Harness, osc7501};
 use serde::{Deserialize, Serialize};
 use wasm_bindgen::prelude::*;
 
+pub mod loadout;
 pub mod observe;
 pub mod session;
 
+pub use loadout::*;
 pub use observe::*;
 pub use session::*;
 

@@ -26,12 +26,14 @@ use acc_core::live as core_session;
 use acc_core::osc7501::{self, Osc7501};
 
 pub mod acc_types;
+pub mod loadout;
 pub mod observe;
 mod remote;
 pub mod session;
 mod types;
 
 pub use acc_types::*;
+pub use loadout::*;
 pub use observe::*;
 pub use remote::*;
 pub use session::*;
